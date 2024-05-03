@@ -46,7 +46,7 @@ class ToolManager:
     retrieval based on content similarity.
     """
 
-    def __init__(self, generated_tool_repo_dir=None):
+    def __init__(self, generated_tool_repo_dir):
         # generated_tools: Store the mapping relationship between descriptions and tools (associated through task names)
         self.generated_tools = {}
         self.generated_tool_repo_dir = generated_tool_repo_dir
